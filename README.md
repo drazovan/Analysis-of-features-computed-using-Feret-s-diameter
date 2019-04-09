@@ -1,6 +1,6 @@
 # Analysis of descriptors computed using Feret's diameter
 
-What is descriptor. What is shape analysis. 
+What are descriptors. What is shape analysis. 
 
 ## Feret's diameter
 
