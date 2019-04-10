@@ -10,7 +10,6 @@ Shape image\\
 Feret's diameter of an object is the distance between its two furthest points measured in a given direction. For an illustration, we give the following image:
 <p float="left">
   <img src="images/feretDiam.png" width="200">
-  <img src="images/feretDiam.png" width="200">
 </p>
 
 
