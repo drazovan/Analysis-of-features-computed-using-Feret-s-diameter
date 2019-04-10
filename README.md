@@ -16,7 +16,7 @@ Feret's diameter of an object is the distance between its two furthest points me
 When computed for multiple directions, Feret's diameter enables a number of other shape descriptors. For this study we choose the following:
 1. *Maximal Feret's diameter* - equal to the classic diameter, i.e. the distance between two futhest points of an object. We compute it as the maximal Feret's diameter over all the directions.
 2. *Minimal Feret's diameter* - minimal Feret's diameter over all the directions.
-3. *Aspect ratio* - ratio between maximla and minimal Feret's diameter.
+3. *Aspect ratio* - ratio between maximal and minimal Feret's diameter.
 4. *Average Feret's diameter* - average Feret's diameter over all the directions.
 5. *Feret's diameter perpendicular to the maximal*.
 6. *Feret's diameter perpendicular to the minimal*.
@@ -47,6 +47,21 @@ Pixel coverage representation is the representation of a shape in which image in
   <img src="images/cell2Rot.png" width="150">
   <img src="images/feret2.png" width="210">
 </p>
+
+[](pythonCode/feretVisualization.m) visualizes the result over all cells and angles: 
+<p align="center">
+  <img src="images/feretOverAll.png" width="400">
+</p>
+
+### Computing other descriptors
+
+Using the obtained matrix of Feret's diameter over all cells and angles [](FerDiamCellImArranged/cellMain.m) computes and visualizes values of the descriptors we listed in the section **Feret's diameter**.
+
+We illustrate some of the descriptors over all the cells in the data base:
+<p align="center">
+  <img src="images/someDesc.png" width="600">
+</p>
+
 
 
 
