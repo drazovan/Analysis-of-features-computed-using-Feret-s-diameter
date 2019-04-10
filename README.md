@@ -32,14 +32,22 @@ Pixel coverage representation is the representation of a shape in which image in
 
 <p align="center">
   <img src="images/cell1.png" width="100">
-  <img src="images/cell1Cov.png" width="100">
+  <img src="images/cell1Cov.png" width="150">
   <img src="images/cell2.png" width="100">
-  <img src="images/cell2Cov.png" width="100">
+  <img src="images/cell2Cov.png" width="150">
 </p>
 
 ### Computing Feret's diameter over angles and cells
 
 [](FerDiamCellImArranged/cellMain.m) iterates over angles {0,1,2...,180} degrees and computes Feret's diameter for every cell. Some cells and the computed Feret's diameter are illustrated by the following figure:
+
+<p align="center">
+  <img src="images/cell1.png" width="100">
+  <img src="images/feret1.png" width="100">
+  <img src="images/cell2.png" width="100">
+  <img src="images/feret2.png" width="100">
+</p>
+
 
 
 
