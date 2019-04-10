@@ -28,14 +28,20 @@ When computed for multiple directions, Feret's diameter enables a number of othe
 
 ### Input data
 
-Pixel coverage representation is the representation of a shape in which image intensities express to which extent every pixel is covered by the shape. There are different methods for computing pixel coverage representation from real images. We use the algorithm proposed in https://doi.org/10.1016/j.patrec.2011.12.014. The input data consists of a data base of 368 pixel coverage representations of microscopic images of cell nuclei. The following image illustrates some cell nuclei from the data base and their pixel coverage representations:
+Pixel coverage representation is the representation of a shape in which image intensities express to which extent every pixel is covered by the shape. There are different methods for computing pixel coverage representation from real images. We use the algorithm proposed in https://doi.org/10.1016/j.patrec.2011.12.014. The input data base consistsof 368 pixel coverage representations of microscopic images of cell nuclei. The following image illustrates some cell nuclei from the data base and their pixel coverage representations:
 
 <p align="center">
-  <img src="images/cell1.png" width="150">
-  <img src="images/cell1Cov.png" width="150">
-  <img src="images/cell2.png" width="150">
-  <img src="images/cell2Cov.png" width="150">
+  <img src="images/cell1.png" width="100">
+  <img src="images/cell1Cov.png" width="100">
+  <img src="images/cell2.png" width="100">
+  <img src="images/cell2Cov.png" width="100">
 </p>
+
+### Computing Feret's diameter over angles and cells
+
+
+
+
 
 
 
