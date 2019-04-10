@@ -9,7 +9,7 @@ Shape image\\
 ### Feret's diameter
 Feret's diameter of an object is the distance between its two furthest points measured in a given direction. For an illustration, we give the following image:
 <p align="center">
-  <img src="images/feretDiam.png" width="200">
+  <img src="images/feretDiam.png" width="150">
 </p>
 
 
@@ -31,8 +31,10 @@ When computed for multiple directions, Feret's diameter enables a number of othe
 Pixel coverage representation is the representation of a shape in which image intensities express to which extent every pixel is covered by the shape. It is oposed to binary representation is which a pixel is assigned 0 if its center is covered by a shape and 1 if in is not. There are different methods for computing pixel coverage representation from real images. The input data consists of a data base of 368 pixel coverage representations of microscopic images of cell nuclei. The following image illustrates some cell nuclei from the data base and their pixel coverage representations:
 
 <p align="center">
-  <img src="images/cell1.png" width="200">
-  <img src="images/cell2.png" width="200">
+  <img src="images/cell1.png" width="150">
+  <img src="images/cell1Cov.png" width="150">
+  <img src="images/cell2.png" width="150">
+  <img src="images/cell2Cov.png" width="150">
 </p>
 
 
