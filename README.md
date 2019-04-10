@@ -62,6 +62,13 @@ We illustrate some of the descriptors over all the cells in the data base:
   <img src="images/someDesc.png" width="600">
 </p>
 
+### Computing correlation matrix
+
+[](FerDiamCellImArranged/cellMain.m) computes the correlation matrix and displays the heat map for the 11 descriptors:
+
+<p align="center">
+  <img src="images/corrMat.png" width="400">
+</p>
 
 
 
