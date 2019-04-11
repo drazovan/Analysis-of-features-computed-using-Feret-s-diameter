@@ -39,7 +39,7 @@ Pixel coverage representation is the representation of a shape in which image in
 
 ### Computing Feret's diameter over angles and cells
 
-[](FerDiamCellImArranged/cellMain.m) iterates over angles {0,1,2...,180} degrees and computes Feret's diameter for every cell. Some cells and the computed Feret's diameter are illustrated by the following figure:
+[](FerDiamCellImArranged/cellMain.m) iterates over angles {0,1,2...,180} degrees and computes Feret's diameter for every cell using the algorithm proposed in https://doi.org/10.1016/j.patrec.2016.04.021. Some cells and the computed Feret's diameter are illustrated by the following figure:
 
 <p align="center">
   <img src="images/cell1Rot.png" width="150">
