@@ -79,7 +79,7 @@ It is interesting to notuice that the perimeter is more strongly correlated to t
 
 Also, increasing of maximal or minimal ratio both lead to the increment of the shape under considertion. This is not true for the aspect ratio measure.
 
-My general impression is that the computed measures with exceptance of the aspect ratio have strong positive correlation to the size of shapes in the data set. If we wolud observe more diverse objects which change theie convexity, elongation, compactness and other properties, the results would differ. One more impression is that a deep understanding of the features at disposal and the data under consideration is of great importance for selecting the right features and making generalizaions to larger data.  
+My general impression is that the computed measures with exceptance of the aspect ratio have strong positive correlation to the size of shapes in the data set. If we wolud observe more diverse objects which change their convexity, elongation, compactness and other properties, the results would differ. One more impression is that a deeper understanding of the features at disposal and the data under consideration is of great importance for selecting the right features and making generalizaions of conclusions to larger data sets.  
 
 Any more conclusions :) ?
 
