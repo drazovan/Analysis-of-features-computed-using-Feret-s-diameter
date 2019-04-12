@@ -1,8 +1,9 @@
 # Analysis of descriptors computed using Feret's diameter
 
-In this study we... 
-What are descriptors. What is shape analysis. 
-Shape image\\
+Shape description is a filed of image analysis that deals with the quantification of shape properties of an object. A shape property that is quantified by a number is named descriptor. For instance, area, perimeter, diameter are some descriptors.
+
+Feature selection is an important and complex problem in data analysis and machine learning tasks.   
+
 
 
 
