@@ -26,7 +26,7 @@ When computed for multiple directions, Feret's diameter enables a number of othe
 8. *Larger side of the minimal encasing rectangle*.
 9. *Shorter side of the minimal encasing rectangle*.
 10. *The radius of the ball with equal volume as the cylinder with radius equal to minimal Feret's diameter and height equal to maximal Feret's diameter*.
-11. *Perimeter* - computed as the average Feret's diameter over all directions multiplied by π. This can be applied only if the observed shapes are convecs, which is true in our case.
+11. *Perimeter* - computed as the average Feret's diameter over all directions multiplied by π. This can be applied only if the observed shapes are convex, which is true in our case.
 
 ### Input data
 
