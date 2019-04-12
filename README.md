@@ -77,7 +77,7 @@ A general conclusion is that there is a strong positive correlation between desc
 
 It is interesting to notuice that the perimeter is more strongly correlated to the area of the bounding rectangle than to the maximal diameter. This can be explained by the fact that the increment of the maximal diameter does not neccesarily leads to increment of the perimeter since a shape can be elongated. On this data base both, the bounding rectangle and the perimeter are measures of the size of a shape.
 
-Also, increasing of maximal or minimal ratio both lead to the increment of the shape under considertion. This is not true for the aspect ratio measure. 
+Also, increasing of maximal or minimal ratio both lead to the increment of the shape under considertion. This is not true for the aspect ratio measure.
 
 My general impression is that the computed measures with exceptance of the aspect ratio have strong positive correlation to the size of shapes in the data set. If we wolud observe more diverse objects which change theie convexity, elongation, compactness and other properties, the results would differ. One more impression is that a deep understanding of the features at disposal and the data under consideration is of great importance for selecting the right features and making generalizaions to larger data.  
 
