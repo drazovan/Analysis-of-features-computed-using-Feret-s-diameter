@@ -66,7 +66,7 @@ We illustrate some of the descriptors over all the cells in the data base:
 
 ### Computing correlation matrix
 
-[](FerDiamCellImArranged/cellMain.m) computes the correlation matrix and displays the heat map for the 11 descriptors:
+[descAnVis/correlMatrix.py](descAnVis/correlMatrix.py) computes the correlation matrix and displays the heat map for the 11 descriptors:
 
 <p align="center">
   <img src="images/corrMat.png" width="400">
