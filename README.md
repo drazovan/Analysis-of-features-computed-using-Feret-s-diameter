@@ -26,7 +26,7 @@ When computed for multiple directions, Feret's diameter enables a number of othe
 8. *Larger side of the minimal encasing rectangle*.
 9. *Shorter side of the minimal encasing rectangle*.
 10. *The radius of the ball with equal volume as the cylinder with radius equal to minimal Feret's diameter and height equal to maximal Feret's diameter*.
-11. *Perimeter* - computed as the average Feret's diameter over all directions multiplied by $\pi$. This can be applied only if the observed are conves, which is true in our case.
+11. *Perimeter* - computed as the average Feret's diameter over all directions multiplied by π. This can be applied only if the observed are conves, which is true in our case.
 ### Input data
 
 Pixel coverage representation is the representation of a shape in which image intensities express to which extent every pixel is covered by the shape. There are different methods for computing pixel coverage representation from real images. We use the algorithm proposed in https://doi.org/10.1016/j.patrec.2011.12.014. The input data base consistsof 368 pixel coverage representations of microscopic images of cell nuclei. The following image illustrates some cell nuclei from the data base and their pixel coverage representations:
