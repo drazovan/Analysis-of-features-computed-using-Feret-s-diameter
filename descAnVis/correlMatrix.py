@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Apr  7 21:19:01 2019
-
 @author: Slobodan
 """
 
@@ -10,12 +9,9 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# correlation matrix
-
 data = descriptors
-X = data.iloc[:,0:10]  #independent columns
-y = data.iloc[:,10]    #target column i.e price range
-#get correlations of each features in dataset
+
+#gets correlations of each descriptor in the dataset
 corrmat = data.corr()
 top_corr_features = corrmat.index
 plt.figure(figsize=(10,10))
