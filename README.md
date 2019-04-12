@@ -1,11 +1,10 @@
 # Analysis of descriptors computed using Feret's diameter
 
-Shape description is a filed of image analysis that deals with the quantification of shape properties of an object. A shape property that is quantified by a number is named descriptor. For instance, area, perimeter, diameter are some descriptors.
+Shape description is a field of image analysis that deals with the quantification of shape properties of an object. A shape property that is quantified by a number is named descriptor. For instance, area, perimeter, diameter are some descriptors.
 
-Feature selection is an important and complex problem in data analysis and machine learning tasks. Having at disposal a large number of features, it is of crucial importance to select those that are the most suitable. Some benefits are reducing the computational time and avoiding overfitting and learning based on irrelevant features. 
+Feature selection is an important and complex problem in data analysis and machine learning tasks. Having at disposal a large number of features, it is of crucial importance to select those that are the most suitable. Some benefits are reducing the computational time and avoiding overfitting and learning based on irrelevant features. An explanatory example is that it is important for problems of prediction that we use features which are correlated as much as possible with the value we want to predict, but at the same time uncorrelated to each other.
 
-
-
+Many shape descirpotrs are generic, i.e. they are used for somputing other descroiptors using mathematical operations. In such a manner features are transformed to another features. In this manner, a geometrical property represented by a generic feature frequently gets another geometrical meaning and it is very itricate to make clear, complete and general conclusions abouts the relationship of the geometrical properites.      
 
 
 
