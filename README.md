@@ -4,9 +4,9 @@ Shape description is a field of image analysis that deals with the quantificatio
 
 Feature selection is an important and complex problem in data analysis and machine learning tasks. Having at disposal a large number of features, it is of crucial importance to select those that are the most suitable. Some benefits are reducing the computational time and avoiding overfitting and learning based on irrelevant features. An explanatory example is that it is important for problems of prediction that we use features which are correlated as much as possible with the value we want to predict, but at the same time uncorrelated to each other.
 
-Many shape descirpotrs are generic, i.e. they are used for somputing other descroiptors using mathematical operations. In such a manner features are transformed to another features. In this manner, a geometrical property represented by a generic feature frequently gets another geometrical meaning and it is very itricate to make clear, complete and general conclusions abouts the relationship of the geometrical properites.      
+Many shape descriptors are generic, i.e. they are used for somputing other descroiptors using mathematical operations. In such a manner features are transformed to another features. In this manner, a geometrical property represented by a generic feature frequently gets another geometrical meaning and it is very itricate to make clear, complete and general conclusions abouts the relationship of the geometrical properites. 
 
-
+Many different descriptors are used simultanelusly in shape analysis to provide a set of numbers that determines the shape of an object as best as possible. Naturally arrises an interesting question, how would descriptors (frequenlty having clear geometrical meaning such as area, perimeter, diameter) behave in data analysis and machine learning tasks. One of generic descriptors is Feret's diameter and this is a small study on it.
 
 ### Feret's diameter
 Feret's diameter of an object is the distance between its two furthest points measured in a given direction. For an illustration, we give the following image:
