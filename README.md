@@ -26,9 +26,8 @@ When computed for multiple directions, Feret's diameter enables a number of othe
 8. *Larger side of the minimal encasing rectangle*.
 9. *Shorter side of the minimal encasing rectangle*.
 10. *The radius of the ball with equal volume as the cylinder with radius equal to minimal Feret's diameter and height equal to maximal Feret's diameter*.
-11. *Perimeter* - computed as the average Feret's diameter over all directions multiplied by
-<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;$\pi$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;$\pi$" title="$\pi$" /></a> 
-π. This can be applied only if the observed shapes are convecs, which is true in our case.
+11. *Perimeter* - computed as the average Feret's diameter over all directions multiplied by π. This can be applied only if the observed shapes are convecs, which is true in our case.
+
 ### Input data
 
 Pixel coverage representation is the representation of a shape in which image intensities express to which extent every pixel is covered by the shape. There are different methods for computing pixel coverage representation from real images. We use the algorithm proposed in https://doi.org/10.1016/j.patrec.2011.12.014. The input data base consistsof 368 pixel coverage representations of microscopic images of cell nuclei. The following image illustrates some cell nuclei from the data base and their pixel coverage representations:
@@ -42,7 +41,7 @@ Pixel coverage representation is the representation of a shape in which image in
 
 ### Computing Feret's diameter over angles and cells
 
-[](FerDiamCellImArranged/cellMain.m) iterates over angles {0,1,2...,180} degrees and computes Feret's diameter for every cell using the algorithm proposed in https://doi.org/10.1016/j.patrec.2016.04.021. Some cells and the computed Feret's diameter are illustrated by the following figure:
+[!](FerDiamAllCellAng/cellMain.m)iterates over angles {0,1,2...,180} degrees and computes Feret's diameter for every cell using the algorithm proposed in https://doi.org/10.1016/j.patrec.2016.04.021. Some cells and the computed Feret's diameter are illustrated by the following figure:
 
 <p align="center">
   <img src="images/cell1Rot.png" width="150">
