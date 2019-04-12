@@ -1,4 +1,4 @@
-function cellWidth_46_90=CELLWIDTH_46_90(fi,I)
+function cellWidth_45_89=CELLWIDTH_45_89(fi,I)
 
 Af=I;
 [w,h] = size(Af(:,:,1));
@@ -62,4 +62,4 @@ end
         
 l=1:368;
 projMax(l)=roundn(max(max(P(:,:,l))),-15);
-cellWidth_46_90=projMax-projMin;
+cellWidth_45_89=projMax-projMin;
