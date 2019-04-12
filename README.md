@@ -2,7 +2,9 @@
 
 Shape description is a filed of image analysis that deals with the quantification of shape properties of an object. A shape property that is quantified by a number is named descriptor. For instance, area, perimeter, diameter are some descriptors.
 
-Feature selection is an important and complex problem in data analysis and machine learning tasks.   
+Feature selection is an important and complex problem in data analysis and machine learning tasks. Having at disposal a large number of features, it is of crucial importance to select those that are the most suitable. Some benefits are reducing the computational time and avoiding overfitting and learning based on irrelevant features. 
+
+
 
 
 
