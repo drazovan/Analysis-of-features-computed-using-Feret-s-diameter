@@ -41,7 +41,7 @@ Pixel coverage representation is the representation of a shape in which image in
 
 ### Computing Feret's diameter over angles and cells
 
-[!](FerDiamAllCellAng/cellMain.m)iterates over angles {0,1,2...,180} degrees and computes Feret's diameter for every cell using the algorithm proposed in https://doi.org/10.1016/j.patrec.2016.04.021. Some cells and the computed Feret's diameter are illustrated by the following figure:
+[FerDiamAllCellAng/cellMain.m](FerDiamAllCellAng/cellMain.m) iterates over angles {0,1,2...,180} degrees and computes Feret's diameter for every cell using the algorithm proposed in https://doi.org/10.1016/j.patrec.2016.04.021. Some cells and the computed Feret's diameter are illustrated by the following figure:
 
 <p align="center">
   <img src="images/cell1Rot.png" width="150">
@@ -50,14 +50,14 @@ Pixel coverage representation is the representation of a shape in which image in
   <img src="images/feret2.png" width="210">
 </p>
 
-[](pythonCode/feretVisualization.m) visualizes the result over all cells and angles: 
+[descAnVis/allCellsAngFerVis.py](descAnVis/allCellsAngFerVis.py) visualizes the result over all cells and angles: 
 <p align="center">
   <img src="images/feretOverAll.png" width="400">
 </p>
 
 ### Computing other descriptors
 
-Using the obtained matrix of Feret's diameter over all cells and angles [](FerDiamCellImArranged/cellMain.m) computes and visualizes values of the descriptors we listed in the section **Feret's diameter**.
+Using the obtained matrix of Feret's diameter over all cells and angles [descAnVis/descCompAndVis.py](descAnVis/descCompAndVis.py) computes and visualizes values of the descriptors we listed in the section **Feret's diameter**.
 
 We illustrate some of the descriptors over all the cells in the data base:
 <p align="center">
