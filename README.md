@@ -73,6 +73,8 @@ We illustrate some of the descriptors over all the cells in the data base:
 
 ### Conclusion
 
+A general conclusion is that there is a strong positive correlation between descriptors computed on the data set. Would that be the same if the shapes in the data set are not all convex, such that the perimeter can encrase without increasing the shape size?  
+
 
 
 
