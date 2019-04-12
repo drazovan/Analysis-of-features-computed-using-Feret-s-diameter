@@ -75,6 +75,9 @@ We illustrate some of the descriptors over all the cells in the data base:
 
 A general conclusion is that there is a strong positive correlation between descriptors computed on the data set. Would that be the same if the shapes in the data set are not all convex, such that the perimeter can encrase without increasing the shape size?  
 
+It is interesting to notuice that the perimeter is more strongly correlated to the area of the bounding rectangle than to the maximal diameter. This can be explained by the fact that the increment of the maximal diameter does not neccesarily leads to increment of the perimeter since a shape can be elongated. On this data base both, the bounding rectangle and the perimeter are measures of the size of a shape.
+
+Also, increasing of maximal or minimal ratio both lead to the increment of the shape under considertion. This is not true for the aspect ratio measure. 
 
 
 
