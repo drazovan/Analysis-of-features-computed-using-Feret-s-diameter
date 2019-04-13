@@ -73,13 +73,13 @@ We illustrate some of the descriptors over all the cells in the data base:
 
 ### Conclusion
 
-A general conclusion is that there is a high positive correlation between the descriptors computed on the data set, with the exception of the aspect ratio. However, the features that turn out to be correlated on this data set are not neccesarily correlated in general. For instance, it would be possible that the perimeter increases without increaing the shape size related to inceasing encasing rectangle, maximal and minimal diameter if the shapes in the data set are not all convex. 
+A general conclusion is that there is a high positive correlation between the descriptors computed on the data set, with the exception of the aspect ratio. However, the features that turn out to be correlated on this data set are not neccesarily correlated in general. For instance, it would be possible that the perimeter increases without increasing the shape size (related to increasing encasing rectangle, maximal and minimal diameter) if the shapes in the data set are not all convex. 
 
 It is interesting to notice that the perimeter is more strongly correlated to the area of the bounding rectangle than to the maximal diameter. This can be explained by the fact that an increment of the maximal diameter does not neccesarily leads to an increment of the perimeter since a shape can be elongated. On this data base both, the bounding rectangle and the perimeter are measures of the size of a shape.
 
-A high correlation between the maximal and minimal diameter indicates the uniformity of shapes in the data set. The shapes vary in their size and an increment of maximal and minimal diameter increases the size. This is not true for the aspect ratio. The aspect ratio measure decreases with increasing the minimal diameter, i.e. size. 
+A high correlation between the maximal and minimal diameter indicates the uniformity of shapes in the data set. The shapes vary in their size and an increment of maximal and minimal diameter increases the size. This is not true for the aspect ratio. The aspect ratio measure decreases with increasing the minimal diameter. 
 
-My general impression is that the computed measures with exceptance of the aspect ratio have strong positive correlation to the size of shapes in the data set. If we wolud observe more diverse objects which change their convexity, elongation, compactness and other properties, the results would differ. One more impression is that understanding of what features at disposal represent for the data under consideration is of great importance for selecting the right features and making generalizaions of conclusions to larger data sets.  
+My general impression is that the computed measures with exceptance of the aspect ratio have strong positive correlation with the size of shapes in the data set and that the size of objects is the property that varies the most strongly comparing to others properties. If we wolud observe more diverse objects which change their convexity, elongation, compactness and other characteristics, the results would differ. One more impression is that understanding of what features at disposal represent for the data under consideration is of great importance for selecting the right features and making generalizaions of conclusions to larger data sets.  
 
 Any more conclusions :) ?
 
