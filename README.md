@@ -1,4 +1,4 @@
-# Analysis of data computed using Feret's diameter
+# Analysis of features computed using Feret's diameter
 
 Shape description is a field of image analysis that deals with the quantification of shape properties of an object. A shape property that is quantified by a number is named descriptor. For instance, area, perimeter and diameter are some descriptors. Many shape descriptors are generic, i.e. they are used for computing other descriptors using mathematical operations. In such a manner a generic feature can be transformed into another, derived, feature. It is interesting that a generic feature and a derived feature based on it can have different geometrical meanings and it is itricate to make clear and general conclusions abouts the relationship of the geometrical meanings.  
 
