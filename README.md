@@ -4,7 +4,7 @@ Shape description is a field of image analysis that deals with the quantificatio
 
 Feature selection is an important and complex problem in data analysis and machine learning tasks. Having at disposal a large number of features, it is of crucial importance to select the most suitable. Some benefits are reducing the computational time and avoiding overfitting and learning based on irrelevant features. An explanatory example is that it is important for problems of prediction using regresssion that we use features which strongly affect the value we want to predict but are uncorrelated to each other.
 
-Many different descriptors are used simultanelusly in shape analysis to provide a set of numbers that determines the shape of an object as best as possible. Naturally arrises an interesting question, how would descriptors (frequenlty having clear geometrical meaning such as area, perimeter, diameter) behave in data analysis and machine learning tasks. One of generic descriptors is Feret's diameter and this is a small study on it.
+Many different descriptors are used simultanelusly in shape analysis to provide a set of numbers that determines the shape of an object as best as possible. Naturally arrises an interesting question: How would descriptors derived from a same generic behave in data analysis and machine learning tasks. One of the generic descriptors is Feret's diameter and this is a small study on it.
 
 ### Feret's diameter
 
@@ -29,7 +29,7 @@ When computed for multiple directions, Feret's diameter enables a number of othe
 
 ### Input data
 
-Pixel coverage representation is the representation of a shape in which image intensities express to which extent every pixel is covered by the shape. There are different methods for computing pixel coverage representation from real images. We use the algorithm proposed in https://doi.org/10.1016/j.patrec.2011.12.014. The input data base [FerDiamAllCellAng/coverSegm.mat] is Matlab cell array consisting of 368 pixel coverage representations of microscopic images of cell nuclei. The following image illustrates some cell nuclei from the data base and their pixel coverage representations:
+Pixel coverage representation is the representation of a shape in which image intensities express to which extent every pixel is covered by the shape. There are different methods for computing pixel coverage representation from real images. We use the algorithm proposed in https://doi.org/10.1016/j.patrec.2011.12.014. The input data base is Matlab cell array [FerDiamAllCellAng/coverSegm.mat](FerDiamAllCellAng/coverSegm.mat) consisting of 368 pixel coverage representations of microscopic images of cell nuclei. The following image illustrates some cell nuclei from the data base and their pixel coverage representations:
 
 <p align="center">
   <img src="images/cell1.png" width="100">
@@ -56,7 +56,7 @@ Pixel coverage representation is the representation of a shape in which image in
 
 ### Computing other descriptors
 
-Using the obtained matrix ([descAnVis/widthAllCells.mat](descAnVis/widthAllCells.mat]) of Feret's diameter over all cells and angles [descAnVis/descCompAndVis.py](descAnVis/descCompAndVis.py) computes and visualizes values of the descriptors we listed in the section **Feret's diameter**.
+Using the obtained matrix ( [descAnVis/widthAllCells.mat](descAnVis/widthAllCells.mat) ) of Feret's diameter over all cells and angles [descAnVis/descCompAndVis.py](descAnVis/descCompAndVis.py) computes and visualizes values of the descriptors we listed in the section **Feret's diameter**.
 
 We illustrate some of the descriptors over all the cells in the data base:
 <p align="center">
@@ -73,11 +73,11 @@ We illustrate some of the descriptors over all the cells in the data base:
 
 ### Conclusion
 
-A general conclusion is that there is a high positive correlation between descriptors computed on the data set, with the exception of aspect ratio. However, it would be possible that the perimeter increases without increment of the shape size if the shapes in the data set are not all convex.
+A general conclusion is that there is a high positive correlation between the descriptors computed on the data set, with the exception of the aspect ratio. However, the features that turn out to be correlated on this data set are not neccesarily correlated in general. For instance, it would be possible that the perimeter increases without increaing the shape size related to inceasing encasing rectangle, maximal and minimal diameter if the shapes in the data set are not all convex. 
 
-It is interesting to notice that the perimeter is more strongly correlated to the area of the bounding rectangle than to the maximal diameter. This can be explained by the fact that the increment of the maximal diameter does not neccesarily leads to increment of the perimeter since a shape can be elongated. On this data base both, the bounding rectangle and the perimeter are measures of the size of a shape.
+It is interesting to notice that the perimeter is more strongly correlated to the area of the bounding rectangle than to the maximal diameter. This can be explained by the fact that an increment of the maximal diameter does not neccesarily leads to an increment of the perimeter since a shape can be elongated. On this data base both, the bounding rectangle and the perimeter are measures of the size of a shape.
 
-A high correlation between the maximal and minimal diameter indicates the uniformity of shapes in the data set. The shapes vary in their size and the increment of maximal and minimal diameter increase the size. This is not true for the aspect ratio. The aspect ratio measure decreases with increasing the minimal diameter, i.e. size. 
+A high correlation between the maximal and minimal diameter indicates the uniformity of shapes in the data set. The shapes vary in their size and an increment of maximal and minimal diameter increases the size. This is not true for the aspect ratio. The aspect ratio measure decreases with increasing the minimal diameter, i.e. size. 
 
 My general impression is that the computed measures with exceptance of the aspect ratio have strong positive correlation to the size of shapes in the data set. If we wolud observe more diverse objects which change their convexity, elongation, compactness and other properties, the results would differ. One more impression is that understanding of what features at disposal represent for the data under consideration is of great importance for selecting the right features and making generalizaions of conclusions to larger data sets.  
 
