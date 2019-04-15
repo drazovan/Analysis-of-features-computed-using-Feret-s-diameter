@@ -4,7 +4,7 @@ Shape description is a field of image analysis that deals with the quantificatio
 
 Feature selection is an important and complex problem in data analysis and machine learning tasks. Having at disposal a large number of features, it is of crucial importance to select the most suitable. Some benefits are reducing the computational time and avoiding overfitting and learning based on irrelevant features. An explanatory example is that it is important for problems of prediction using regresssion that we use features which strongly affect the value we want to predict but are uncorrelated to each other.
 
-Many different descriptors are used simultanelusly in shape analysis to provide a set of numbers that determines the shape of an object as best as possible. Naturally arrises an interesting question: How would descriptors derived from a same generic behave in data analysis and machine learning tasks. One of the generic descriptors is Feret's diameter and this is a small study on it.
+Many different descriptors are used simultanelusly in shape analysis to provide a set of numbers that determines the shape of an object as best as possible. Naturally arrises an interesting question: How would descriptors derived from a same generic descriptor behave in data analysis and machine learning tasks? One of the generic descriptors is Feret's diameter and this is a small study on it.
 
 ### Feret's diameter
 
